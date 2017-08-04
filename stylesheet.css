@@ -62,7 +62,6 @@ h2 {
 
 }
 
-/* Add a hover effect if you want */
 .fa:hover {
   opacity: 0.7;
 }
@@ -78,4 +77,62 @@ button {
 
 .header {
   height: 76px;
+}
+
+.navbar {
+  background-color: orange;
+  height: 30px;
+  width: 30px;
+  margin: 0px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  text-align: center;
+  vertical-align: bottom;
+  color: white;
+
+}
+
+
+li {
+  display: inline-block;
+  vertical-align: top;
+  color: white;
+}
+
+.dropdown {
+  text-align: center;
+  color: white;
+  padding-top: 6px;
+}
+
+.dropdown li {
+  display: list-item;
+  list-style-type: none;
+}
+
+.dropdown ul {
+  display: none;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+.hover ul {
+  display: block;
+  background-color: orange;
+  top: 0px;
+  position: absolute;
+  right: 30px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.aboutme {
+  background-color: white;
+}
+
+.fa.fa-bars::before {
+  margin-top: 7px;
 }
