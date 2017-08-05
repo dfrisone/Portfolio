@@ -12,6 +12,10 @@ body {
   background-attachment: scroll;
 }
 
+.d {
+  color: orange;
+}
+
 .main-content {
   background-color: #E2E2E4;
   text-align: center;
@@ -54,7 +58,7 @@ h2 {
 .fa {
   width: -10%;
   text-decoration: none;
-  color: grey;
+  color: white;
 }
 
 .fa-facebook::before, .fa-twitter::before, .fa-instagram::before, .fa-github::before, .fa-linkedin::before {
@@ -129,10 +133,48 @@ ul {
   margin: 0px;
 }
 
-.aboutme {
-  background-color: white;
-}
-
 .fa.fa-bars::before {
   margin-top: 7px;
+}
+
+.aboutme {
+  margin:  5%;
+  border-radius: 10px;
+  padding: 5px;
+  display: inline-block;
+  background-color: #E2E2E4;
+  position: absolute;
+  top: 200px;
+
+
+}
+.firstletter {
+  color: orange;
+  float: left;
+  font-size: 40px;
+  line-height: 37px;
+}
+
+.secondparagraph {
+  text-indent: 25px;
+}
+
+.resume {
+  margin:  5%;
+  border-radius: 10px;
+  padding: 5px;
+  display: inline-block;
+  background-color: #E2E2E4;
+  position: absolute;
+  top: 400px;
+}
+
+.portfolio {
+  margin:  5%;
+  border-radius: 10px;
+  padding: 5px;
+  display: inline-block;
+  background-color: #E2E2E4;
+  position: absolute;
+  top: 1150px;
 }
